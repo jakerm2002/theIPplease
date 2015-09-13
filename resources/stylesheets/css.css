@@ -36,6 +36,7 @@ html {
 	text-align: center;
 	margin-top: 8px;
 	text-decoration: none;
+	font-size: 1.1em;
 }
 
 .more:hover {
@@ -73,4 +74,5 @@ a:hover {
 	bottom: 0;
 	width: 100%;
 	text-align: center;
+	font-size: 1.1em;
 }
