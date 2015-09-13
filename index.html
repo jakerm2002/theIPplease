@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The IP, Please.</title>
+		<link rel="stylesheet" type="text/css" href="resources/stylesheets/css.css">
+		<script type="text/javascript">
+			var userip;
+			var useripv6;
+		</script>
+		<script type="text/javascript" src="https://www.l2.io/ip.js?var=userip"></script>
+		<script type="text/javascript" src="https://l2.io/ip.js?var=useripv6"></script>
+	</head>
+	<body>
+		<div class="title">THE IP, &nbspPLEASE.</div>
+		<div class="ipis">YOUR IP IS</div>
+		<div class="userip">
+		<script type="text/javascript">
+			document.write(userip);
+		</script>
+		</div>
+		<div class="more"><a class="more" href="#" onclick="document.getElementById('hiddenText').style.display='block'; return false;">IPv6 Please? Right here.</a></div>
+		<div class="IPv6" style="display:none;" id="hiddenText"><script type="text/javascript">document.write(useripv6);</script></div>
+		<div class="bottom">The IP, Please. &nbsp &copy; 2015 &nbsp <a href="https://github.com/jakerm2002/theIPplease">View Project on Github</a></div>

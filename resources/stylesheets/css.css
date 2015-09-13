@@ -1,0 +1,76 @@
+@font-face {
+	font-family: talldark;
+	src: url(../fonts/talldark.ttf);
+}
+
+@font-face {
+	font-family: dinCondensed;
+	src: url(../fonts/dinCondensed.ttf)
+}
+
+html {
+	font-family: dinCondensed;
+	background-color: #2ecc71;
+	color: #fff;
+}
+
+.title {
+	font-size: 3em;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+
+.ipis {
+	font-size: 6em;
+	text-align: center;	
+	margin-top: 10%;
+}
+
+.userip {
+	font-size: 5em;
+	text-align: center;
+}
+
+.more {
+	color: #27ae60;
+	text-align: center;
+	margin-top: 8px;
+	text-decoration: none;
+}
+
+.more:hover {
+	color: #fff;
+	-webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+    transition: 0.2s linear;
+}
+
+a {
+	color: #27ae60;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+	-webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+    transition: 0.2s linear;
+}
+
+.IPv6 {
+	color: #fff;;
+	text-align: center;
+	margin-top: 8px;
+}
+
+.bottom {
+	color: #27ae60;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
