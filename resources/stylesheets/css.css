@@ -12,12 +12,17 @@ html {
 	font-family: dinCondensed;
 	background-color: #2ecc71;
 	color: #fff;
+	margin: 0px;
+}
+
+body {
+	margin: 0px;
 }
 
 .title {
 	font-size: 3em;
 	margin-top: 20px;
-	margin-left: 15px;
+	margin-left: 22px;
 }
 
 .ipis {
@@ -34,8 +39,9 @@ html {
 .more {
 	color: #27ae60;
 	text-align: center;
-	margin-top: 8px;
+	margin-top: 12px;
 	text-decoration: none;
+	font-size: 1.1em;
 }
 
 .more:hover {
@@ -73,4 +79,5 @@ a:hover {
 	bottom: 0;
 	width: 100%;
 	text-align: center;
+	font-size: 1.1em;
 }
