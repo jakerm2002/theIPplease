@@ -10,7 +10,15 @@
 		<script type="text/javascript" src="https://www.l2.io/ip.js?var=userip"></script>
 		<script type="text/javascript" src="https://l2.io/ip.js?var=useripv6"></script>
 	</head>
-	<body>
+	<body onload="return ran_col()">
+		<script type="text/javascript">
+            function ran_col() {
+                var col = '#';
+                var letters = ['2ECC71','3498DB','9b59b6','e74c3c','34495e'];
+                col += letters[Math.floor(Math.random() * letters.length)];
+                document.documentElement.style.background = col;
+            }
+        </script>
 		<div class="title">THE IP, &nbspPLEASE.</div>
 		<div class="ipis">YOUR IP IS</div>
 		<div class="userip">
@@ -18,6 +26,6 @@
 			document.write(userip);
 		</script>
 		</div>
-		<div class="more"><a class="more" href="#" onclick="document.getElementById('hiddenText').style.display='block'; return false;">IPv6 Please? Right here.</a></div>
+<!-- 		<div class="more"><a class="more" href="#" onclick="document.getElementById('hiddenText').style.display='block'; return false;">IPv6 Please?</a></div> -->
 		<div class="IPv6" style="display:none;" id="hiddenText"><script type="text/javascript">document.write(useripv6);</script></div>
 		<div class="bottom">The IP, Please. &nbsp &copy; 2015 &nbsp <a href="https://github.com/jakerm2002/theIPplease">View Project on Github</a></div>
