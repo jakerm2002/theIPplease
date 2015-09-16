@@ -8,6 +8,11 @@
 	src: url(../fonts/dinCondensed.ttf)
 }
 
+@font-face {
+	font-family: github;
+	src: url(../fonts/octicons-local.ttf)
+}
+
 html {
 	font-family: dinCondensed;
 	color: #fff;
@@ -78,4 +83,9 @@ a:hover {
 	width: 100%;
 	text-align: center;
 	font-size: 1.1em;
+}
+
+#github {
+	font-family: github;
+	font-size: .9em;
 }
