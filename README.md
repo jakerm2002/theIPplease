@@ -1,4 +1,4 @@
-# The IP, Please
+# The IP, Please.
 The IP Please is a simple website for informing users of their IP address.
 
 ## Clean Design.
