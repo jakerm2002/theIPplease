@@ -7,8 +7,9 @@
 			var userip;
 			var useripv6;
 		</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.2.0/trianglify.min.js"></script>
 		<script type="text/javascript" src="https://www.l2.io/ip.js?var=userip"></script>
-		<script type="text/javascript" src="https://l2.io/ip.js?var=useripv6"></script>
+<!-- 		<script type="text/javascript" src="https://l2.io/ip.js?var=useripv6"></script> -->
 		<link rel="icon" sizes="256x256" href="favicon.ico">
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -22,6 +23,7 @@
 		</script>
 	</head>
 	<body onload="return ran_col()">
+	<div class='all'>
 		<script type="text/javascript">
             function ran_col() {
                 var col = '#';
@@ -30,6 +32,16 @@
                 document.documentElement.style.background = col;
             }
         </script>
+<!--
+		<script>
+			var pattern = Trianglify({
+			width: window.innerWidth,
+			height: window.innerHeight
+    		});
+			document.body.appendChild(pattern.canvas())
+		</script>
+-->
+<!-- 		<canvas></canvas> -->
 		<div class="title">THE IP, &nbspPLEASE.</div>
 		<div class="ipis">THE IP IS</div>
 		<div class="userip">
@@ -39,4 +51,7 @@
 		</div>
 <!-- 		<div class="more"><a class="more" href="#" onclick="document.getElementById('hiddenText').style.display='block'; return false;">IPv6 Please?</a></div> -->
 		<div class="IPv6" style="display:none;" id="hiddenText"><script type="text/javascript">document.write(useripv6);</script></div>
-		<div class="bottom">The IP, Please. &nbsp &copy; 2015 &nbsp <a id='github' href="https://github.com/jakerm2002/theIPplease">a</a></div>
+		<div class="bottom">The IP, Please. &nbsp &copy; 2015 &nbsp <a id='github' href="https://github.com/jakerm2002/theIPplease">a</a> &nbsp <a href="about.html">About</a></div>
+	</div>
+	</body>
+</html>
