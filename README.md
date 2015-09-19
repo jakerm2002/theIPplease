@@ -1,4 +1,4 @@
-# The IP, Please.
+# The IP, Please. [![wercker status](https://app.wercker.com/status/9a0857372f49c030d75acc8a43843a9a/s "wercker status")](https://app.wercker.com/project/bykey/9a0857372f49c030d75acc8a43843a9a)
 The IP Please is a simple website for informing users of their IP address.
 
 ## Clean Design.
